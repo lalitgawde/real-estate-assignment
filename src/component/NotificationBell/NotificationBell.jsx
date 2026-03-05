@@ -11,7 +11,7 @@ const NotificationBell = () => {
   const userNotifications = notifications.filter(
     (notification) => notification.userId === user.id,
   );
-  console.log("usernotification", userNotifications);
+
   return (
     <div className={styles["notification-container"]}>
       <span onClick={() => setIsNotificationOpen((prev) => !prev)}>

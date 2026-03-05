@@ -11,7 +11,6 @@ export const AppointmentProvider = ({ children }) => {
   const [appointmentState, setAppointmentState] = useState(appointments);
 
   const scheduleAppointment = (appointment) => {
-    console.log("appointment", appointment);
     setAppointmentState((prev) => [
       ...prev,
       { ...appointment, id: Date.now(), status: "Pending" },

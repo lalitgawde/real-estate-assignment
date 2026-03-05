@@ -6,7 +6,7 @@ import NotificationBell from "../NotificationBell/NotificationBell";
 
 const Navbar = () => {
   const { user, logout } = useContext(AuthContext);
-  console.log("navbar");
+
   return (
     <nav className={styles["navbar"]}>
       <Link

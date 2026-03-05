@@ -22,7 +22,7 @@ const PropertyCard = ({ property }) => {
         appointment?.buyerId === user?.id,
     );
   }
-  console.log("property", property.sellerId);
+
   const sellerObj = sellers.filter((seller) => seller.id === property.sellerId);
 
   const handleSchedule = () => {

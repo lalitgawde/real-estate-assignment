@@ -132,7 +132,6 @@ const AdminPanel = () => {
               </tr>
             </thead>
             <tbody>
-              {console.log("appointmentsData", appointmentsData)}
               {appointmentsData.map((appointment) => (
                 <tr key={appointment.id}>
                   <td>{appointment.buyerId[0].name}</td>
