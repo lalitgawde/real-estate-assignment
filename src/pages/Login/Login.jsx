@@ -120,14 +120,14 @@ function Login() {
               </select>
             </div>
             {showSellerCheckBox && (
-              <div className={styles["premium-toggle"]}>
+              <div className={styles["is_register"]}>
                 <input
                   type="checkbox"
                   name="isRegister"
                   checked={sellerCheckbox}
                   onChange={() => setSellerCheckbox((prev) => !prev)}
                 />
-                <label style={{ fontSize: "13px" }}>is Seller Register</label>
+                <label style={{ fontSize: "15px" }}>Seller Register</label>
               </div>
             )}
             <button type="submit" className={styles.button}>

@@ -36,7 +36,8 @@
 }
 
 .inputGroup label,
-.inputRememberMeGroup label {
+.inputRememberMeGroup label,
+.is_register label {
   display: block;
   font-size: 14px;
   font-weight: 500;
@@ -116,4 +117,17 @@
 
 .inputRememberMeGroup input:focus {
   outline: none;
+}
+
+.is_register {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.is_register input {
+  padding: 8px;
+  width: 1rem;
+  border: 1px solid #ccc;
 }
