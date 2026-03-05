@@ -127,9 +127,7 @@ function Login() {
                   checked={sellerCheckbox}
                   onChange={() => setSellerCheckbox((prev) => !prev)}
                 />
-                <label style={{ fontSize: "13px" }}>
-                  Mark as Premium Listing
-                </label>
+                <label style={{ fontSize: "13px" }}>is Seller Register</label>
               </div>
             )}
             <button type="submit" className={styles.button}>
