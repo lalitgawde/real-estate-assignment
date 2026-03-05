@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  /* min-height: 100vh; */
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  /* background-color: #fae8ff; */
+  border-radius: 10px;
+  margin: 0 16px;
+}
+
+.form {
+  padding: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.inputGroup {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.inputGroup label,
+.inputRememberMeGroup label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  font-family: "Roboto", sans-serif;
+}
+
+.inputGroup input {
+  margin-top: 6px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.inputGroup select {
+  margin-top: 6px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.inputGroup input:focus {
+  outline: none;
+}
+
+.eyeIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 8px;
+  top: 27px;
+  cursor: pointer;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #9333ea;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #7e22ce;
+}
+
+.registerText {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.registerText a {
+  color: #9333ea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.registerText a:hover {
+  text-decoration: underline;
+}
+
+.inputRememberMeGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.inputRememberMeGroup input:focus {
+  outline: none;
+}

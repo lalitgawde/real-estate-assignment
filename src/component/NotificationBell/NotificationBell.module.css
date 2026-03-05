@@ -1,0 +1,33 @@
+.notification-container {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.notification-dropdown {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 250px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.unread {
+  background: #f0f9ffc9;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.read {
+  background: #f0f9ffc9;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.unread p,
+.read p {
+  color: black;
+  font-size: 12px;
+}

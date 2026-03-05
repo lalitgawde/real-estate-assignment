@@ -1,0 +1,15 @@
+.map-container {
+  margin-top: 20px;
+}
+
+.map-info {
+  margin-top: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.map-property {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}

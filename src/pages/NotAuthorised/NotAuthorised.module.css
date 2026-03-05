@@ -1,0 +1,44 @@
+.notauth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+}
+
+.notauth-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.error-code {
+  font-size: 70px;
+  color: #ef4444;
+  margin-bottom: 10px;
+}
+
+.notauth-card h2 {
+  margin-bottom: 10px;
+}
+
+.notauth-card p {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.notauth-card button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.notauth-card button:hover {
+  background-color: #1d4ed8;
+}

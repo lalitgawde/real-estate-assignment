@@ -1,0 +1,100 @@
+.seller-section {
+  margin-top: 30px;
+}
+
+.seller-form-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seller-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 20px;
+  /* max-width: 400px; */
+}
+
+.seller-form input,
+.seller-form select,
+.seller-form textarea {
+  padding: 8px;
+  width: 25rem;
+  border: 1px solid #ccc;
+}
+
+.seller-form input:focus,
+.seller-form select:focus,
+.seller-form textarea:focus {
+  outline: none;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #1e293b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inquiry-card {
+  background: white;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.actions {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.active {
+  background-color: #f8d020 !important;
+}
+
+.approve-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.premium-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.premium-toggle input {
+  padding: 8px;
+  width: 1rem;
+  border: 1px solid #ccc;
+}
